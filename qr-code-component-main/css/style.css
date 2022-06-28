@@ -1,0 +1,51 @@
+.container{
+    border: 3px solid white;
+    border-radius: 1rem;
+    width: 20%;
+    margin: 2.5rem  auto;
+    background-color: white;
+    padding: .6rem;
+
+    
+}
+
+.qrcontainer{
+    border: 0px solid green;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    
+}
+
+.qr{
+    margin: auto;
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 1rem;
+    border: 0px solid purple;
+}
+
+.description{
+    font-size: 1.125rem;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    padding: 1rem;
+    margin: auto;
+}
+
+
+.smalltext{
+    color: hsl(220, 15%, 55%);
+    font-weight:normal;
+    font-size:0.938rem;
+}
+
+body{
+    background-color:hsl(212, 45%, 89%);
+}
+
+.attribution{
+    margin:1rem;
+}
