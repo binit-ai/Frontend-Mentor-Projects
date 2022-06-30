@@ -1,12 +1,11 @@
 .wrapper{
     display: flex;
     flex-direction: column;
-    border: 3px solid white;
     border-radius: 1rem;
     background-color: white;
     margin: 2rem auto ;
     padding: 0;
-    width: 33.65%;
+    width: 33.6%;
     align-items: center;
     font-family: 'Red Hat Display';
     font-weight: 500;
@@ -25,19 +24,15 @@ body{
 }
 
 .boy{
-    
-    width: 100%;
     margin: 0;
     padding: 0;
-    width: 100%;
     align-self: flex-start;
-    border-top-right-radius: 2rem;
-    border-top-left-radius: 2rem;
+    border-radius: 2rem;
 }
 
 .picture{
-    border-top-right-radius: 0.625rem;
-    border-top-left-radius: 0.625rem;
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
     padding: 0;
     margin: 0;
 }
@@ -45,7 +40,7 @@ body{
 .button{
     line-height: 4rem;
     background-color: hsl(245, 75%, 52%);
-    border-radius: 1.3rem;
+    border-radius: 1rem;
     text-decoration: none;
     color: black;
     text-align: center;
@@ -59,7 +54,6 @@ body{
 .lastext{
     line-height: 5rem;
     color:  hsl(223, 47%, 23%);
-
 }
 
 .plan{
@@ -68,7 +62,7 @@ body{
     margin:auto;
     display: flex;
     flex-direction: column nowrap;
-    border: 3px solid green;
+    border: 0px solid green;
     justify-content: center;
     align-items: center;
     background-color:  hsl(225, 100%, 98%);
@@ -88,3 +82,10 @@ body{
     padding-bottom: .4rem;
 }
 
+.attribution{
+    margin-top: 1rem;
+}
+
+.midtext{
+   padding: 0 .5rem 0 .5rem;
+}
