@@ -1,14 +1,16 @@
 .wrapper{
-    
+    display: flex;
     flex-direction: column;
     border: 3px solid white;
     border-radius: 1rem;
     background-color: white;
-    margin: 0 auto;
+    margin: 2rem auto ;
+    padding: 0;
     width: 33.65%;
     align-items: center;
     font-family: 'Red Hat Display';
     font-weight: 500;
+    box-shadow: 0 0 10px;
 }
 
 .top{
@@ -23,12 +25,12 @@ body{
 }
 
 .boy{
-    display: flex;
+    
+    width: 100%;
     margin: 0;
     padding: 0;
-    width: auto;
+    width: 100%;
     align-self: flex-start;
-    border: 1px solid white;
     border-top-right-radius: 2rem;
     border-top-left-radius: 2rem;
 }
@@ -43,7 +45,7 @@ body{
 .button{
     line-height: 4rem;
     background-color: hsl(245, 75%, 52%);
-    border-radius: 1rem;
+    border-radius: 1.3rem;
     text-decoration: none;
     color: black;
     text-align: center;
@@ -62,8 +64,8 @@ body{
 
 .plan{
     width: 90%;
-    padding: auto;
-    margin: auto;
+    padding-top: .5rem;
+    margin:auto;
     display: flex;
     flex-direction: column nowrap;
     border: 3px solid green;
@@ -72,6 +74,17 @@ body{
     background-color:  hsl(225, 100%, 98%);
 }
 
-div a.change{
-   border: 3px solid purple;
+
+.change{
+   border: -50px solid purple;
+   position: absolute;
+   right:37.89%;
+   top:65%;
 }
+
+.music{
+    float: left;
+    margin-right: 1rem;
+    padding-bottom: .4rem;
+}
+
